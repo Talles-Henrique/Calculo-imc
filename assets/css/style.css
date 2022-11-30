@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --primary-color:rgb(4, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--primary-color);
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.paragrafo-resultado, .bad{
+    background:rgb(109, 255, 182);
+    padding:10px 20px;
+    border-radius: 15px;
+}
+.bad{
+    background:rgb(255, 150, 150);
+    border-radius: 15px;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background:#fff;
+    padding: 20px;
+    border-radius:5%;
+}
+#imc{
+    float: left;
+    padding: 30px 30px;
+}
+#resultado{
+    padding: 30px 30px;
+} 
+h1{
+    padding: 25px;
+}
+div p{
+    font-size: 0.7em;
+    padding: 10px 0px;
+}
+
+fieldset{
+    background: rgb(209, 206, 206);
+    border-radius: 15px;
+}
+
+form input, form label, form button{
+    display: block;
+    width:100%;
+    padding: 15px 0px;
+}
+form input{
+    font-size: 24px;
+    height: 30px;
+    width: 400px;
+    padding: 0 10px;
+    margin:5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}

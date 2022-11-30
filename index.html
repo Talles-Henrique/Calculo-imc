@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculo IMC</title>
+</head>
+
+<body>
+    <section class="container">
+       
+            <h2>Tabela IMC</h2>
+            <div id="imc">
+                <h3>IMC</h3>
+                <p>
+                    <span>Menos do que 18,5</span><br>
+                    <span>Entre 18,5 e 24,9</span><br>
+                    <span>Entre 25 e 29,9</span><br>
+                    <span>Entre 30 e 34,9</span><br>
+                    <span>Entre 35 e 39,9</span><br>
+                    <span>Mais do que 40</span><br>
+                </p>
+            </div>
+            
+            <div id="resultado">
+                <h3>Resultado</h3>
+                <p>
+                    <span>Abaixo do Peso</span><br>
+                    <span>Peso Normal</span><br>
+                    <span>Sobrepeso</span><br>
+                    <span>Obesidade grau-1</span><br>
+                    <span>Obesidade grau-2</span><br>
+                    <span>Obesidade grau-3</span><br>
+                </p>
+            </div>
+
+            <div id="formulario">
+                <div>
+                    <h1>Calcule seu IMC</h1>
+                    <form>
+                        <fieldset>
+                            <legend>
+                                <label for="peso"><h3>Peso</h3></label> 
+                            </legend>
+                            <legend>
+                                <input type="text" id="peso" placeholder="Peso">
+                            </legend>
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend>
+                                <label for="altura"><h3>Altura</h3></label> 
+                            </legend>
+                            <legend>
+                                <input type="text" id="altura" placeholder="Altura">
+                            </legend>
+                        </fieldset>
+                        <button type="submit">Calcular</button>
+                    </form>
+                </div>
+            </div>
+            <div id="res"></div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
